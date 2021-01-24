@@ -1,0 +1,23 @@
+{
+  "name": "socket-trail-application",
+  "version": "1.0.0",
+  "description": "This is a chat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startDev": "nodemon index.js"
+  },
+  "keywords": [
+    "chat",
+    "heroku"
+  ],
+  "author": "Aryan Shinde",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.1.0"
+  },
+  "engines": {
+    "node": "15.x"
+  }
+}
